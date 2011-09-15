@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>CAPTCHA GAME</title>
+    <script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
+    <script src="jquery_form.js" type="text/javascript"></script>
+    <script src="captchagame.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <form action="verify" method="POST" id="captchagame-form">
+      <div id="captcha"></div>
+      <!--
+      <script type="text/javascript"
+	      src="http://www.google.com/recaptcha/api/challenge?k=6LfRCMgSAAAAAOqaGZ9O-SsC1wJ-eQfS1aMTkppU">
+      </script>
+      <noscript>
+	<iframe src="http://www.google.com/recaptcha/api/noscript?k=6LfRCMgSAAAAAOqaGZ9O-SsC1wJ-eQfS1aMTkppU"
+		height="300" width="500" frameborder="0"></iframe><br>
+	<textarea name="recaptcha_challenge_field" rows="3" cols="40">
+	</textarea>
+	<input type="hidden" name="recaptcha_response_field"
+               value="manual_challenge">
+      </noscript>
+      -->
+      <input type="submit" value="OK" />
+    </form>
+  </body>
+</html>
