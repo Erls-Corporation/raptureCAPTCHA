@@ -1,0 +1,12 @@
+.message{
+    padding: 1ex;
+}
+.success{
+    background-color: lightyellow;
+}
+.fail{
+    background-color: lightblue;
+}
+.reload{
+    background-color: lightgray;
+}

@@ -1,7 +1,7 @@
 require 'webrick'
 require 'net/http'
 
-$privatekey = "private api key"
+$privatekey = "private key"
 
 srv = WEBrick::HTTPServer.new({ :DocumentRoot => './',
                                 :BindAddress => '127.0.0.1',
