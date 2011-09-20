@@ -5,13 +5,13 @@ Played on a web browser.
 
 # todo
 
-* implement time limit
-* implement score
+* pretty score
 * support for reCAPTCHA audio mode
 * support for browsers that don't support JavaScript
 
-# how to use
-`ruby server_webrick.rb` and go `http://localhost:8080/`
+# how to play
+1. Set reCAPTCHA API key server_webrick.rb and captchagame.js
+2. `ruby server_webrick.rb` and go `http://localhost:8080/`
 
 # requirements
 
